@@ -1,0 +1,26 @@
+version: '3'
+services:
+  apache:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app_apache
+    volumes:
+      - ./:/var
+    networks:
+      - app
+    ports:
+      - 80:80
+#mailcatcher configuration( mail interceptor)
+  mailcatcher:
+    image: schickling/mailcatcher
+    networks:
+      - app
+    container_name: app_mailcatcher
+    ports:
+      - 1080:1080
+      - 1025:1025
+#define network
+networks:
+  app:
+    driver: bridge
