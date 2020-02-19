@@ -1,2 +1,4 @@
 # Portfolio réalisé en css/html
-#  bootstrap4
+# bootstrap 4
+# site heberge sous aws lightsail
+# aws ses   
