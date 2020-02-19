@@ -1,5 +1,5 @@
 .idea
 /run
 /log
-/
+/.env
 
