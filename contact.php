@@ -1,6 +1,9 @@
 <?php
 include('header.php');
-
+include 'env.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+require 'vendor/autoload.php';
 function Rec($text)
 {
 	$text = htmlspecialchars(trim($text), ENT_QUOTES);
@@ -35,10 +38,10 @@ if ( isset( $_POST['envoi'] ) ) {
 		$email = '';
 		$errors[] = 'email';
 	}
-	if( isset( $_POST['sujet'] ) && !empty( $_POST['sujet'] ) ){
-		$sujet = Rec($_POST['sujet']);
+	if( isset( $_POST['subject'] ) && !empty( $_POST['subject'] ) ){
+        $subject = Rec($_POST['subject']);
 	}else{
-		$sujet = '';
+        $subject = '';
 		$errors[] = 'sujet';
 	}
 	if( isset( $_POST['message'] ) && !empty( $_POST['message'] ) ){
@@ -52,48 +55,47 @@ if ( isset( $_POST['envoi'] ) ) {
 
 	if( empty( $errors ) ){
 
-	/*
-		********************************************************************************************
-		CONFIGURATION
-		********************************************************************************************
-	*/
-	// destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
-	$destinataire = 'crownfire@hotmail.fr';
-	 
-	// copie ? (envoie une copie au visiteur)
-	$copie = false;
-	 
-	// Messages de confirmation du mail
-	$message_envoye = "Votre message nous est bien parvenu !";
-	$message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
-	 
-	     // Message d'erreur du formulaire
-	     // Pour envoyer un mail HTML, l'en-tête Content-type doit être défini
-	     $headers  = 'MIME-Version: 1.0' . "\r\n";
-	     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+        $mail = new PHPMailer(true);
 
-	     // En-têtes additionnels
-	     $headers .= 'To: Gregory Norvene <'. $destinataire .'>' . "\r\n";
-	     $headers .= 'From: '. $name .' <'. $mail .'>' . "\r\n";
-	     $headers .= 'Bcc: gnorvene@gmail.com' . "\r\n";
+        try {
+            // Specify the SMTP settings.
+            $mail->isSMTP();
+            $mail->setFrom($sender, $senderName);
+            $mail->Username   = $usernameSmtp;
+            $mail->Password   = $passwordSmtp;
+            $mail->Host       = $host;
+            $mail->Port       = $port;
+            $mail->SMTPAuth   = true;
+            $mail->SMTPSecure = 'tls';
+//            $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
 
-	     // Envoi
-	     if( mail($destinataire, $sujet, $message, $headers) ){
-	     	echo $message_envoye;
-	     	//echo"<script language='javascript'>\nalert(\"Votre message nous est bien parvenu !\");\n</script>";
-	     }else{
-	     	echo $message_non_envoye;
-	     	//echo"<script language='javascript'>\nalert(\"envoi du mail a échoué, veuillez réessayer SVP\");\n</script>";
-//	     		  echo'<div class="alert alert-danger">
-//                    <strong>envoi du mail a échoué</strong></div>';
-	     }
+            // Specify the message recipients.
+            $mail->addAddress($recipient);
+            // You can also add CC, BCC, and additional To recipients here.
 
+            // Specify the content of the message.
+            $mail->isHTML(true);
+            $mail->Subject    = $subject;
+            $mail->Body       = $message;
+//            $mail->AltBody    = $bodyText;
+            $mail->Send();
+//
+            echo'<div class="alert alert-success" role="alert">Email sent!</div>';
+            unset ($message);
+            unset ($nom);
+            unset ($email);
+            unset($subject);
+
+
+        } catch (phpmailerException $e) {
+            echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
+        } catch (Exception $e) {
+            echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
+        }
 	}else{
-	        	//echo $message_formulaire_invalide;
-		// echo"<script language='javascript'>\nalert(\"Remplissez  tous les champs \");\n</script>";
-//		  echo'<div class="alert alert-warning">
-//         <strong>Renseigner  tous les champs</strong></div>';
-	}
+        echo'<div class="alert alert-secondary" role="alert">Renseigner tous les champs</div>';
+
+    }
 
 }
 
@@ -137,7 +139,7 @@ if ( isset( $_POST['envoi'] ) ) {
 
               <div class = "row">
                 <div class ="col-md-offset-1 col-md-10 col-md-offset-1 ">
-              <input type="text" input type="text" id="sujet" name="sujet" value="<?php echo stripslashes($sujet); ?>" tabindex="2" class="form-control" placeholder="sujet">
+              <input type="text" input type="text" id="sujet" name="subject" value="<?php echo stripslashes($subject); ?>" tabindex="2" class="form-control" placeholder="sujet">
                 </div>
               </div>
 
