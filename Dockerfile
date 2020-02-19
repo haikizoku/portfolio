@@ -22,7 +22,13 @@ RUN apt-get install -y \
         zip \
   && docker-php-ext-install zip
 
-RUN apt-get update && apt-get install -y vim
+RUN apt-get update && apt-get install -y nano
+
+#install composer
+RUN docker-php-ext-install \
+    zip \
+  && php -r "readfile('https://getcomposer.org/installer');" | php -- --install-dir=/usr/local/bin --filename=composer \
+  && chmod +x /usr/local/bin/composer
 
 #copy apache conf
 COPY ./config-docker/apache/apache.conf /etc/apache2/sites-available/000-default.conf
