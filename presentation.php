@@ -83,14 +83,11 @@
         <div class ="row" id="divide1">
             <div class="col-md-12"></div>
         </div>
-        <form action="cv2020.pdf" method="get" target="_blank">
             <div class="row">
                 <div class="col-6 col-md-4"></div>
-                <div class="col-6 col-md-4"><button class="btn-slide-line center">
-                        <span>CV</span>
-                    </button></div></div>
+                <div class="col-6 col-md-4"><a href="/CV_Gregrory_Norvene.pdf" class="myButton" target="_blank">CV</a></div>
+            </div>
             <div class="col-6 col-md-4"></div>
-        </form>
     </div>
 
     <div class ="row" id="divide2">

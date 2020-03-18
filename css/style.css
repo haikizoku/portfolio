@@ -35,7 +35,7 @@
     display: -webkit-flex;
     /* Safari */
     display: flex;
-    /* Standard syntax */
+    /* Standard syntax */;
 }
 
 .competence,
@@ -92,15 +92,19 @@ button:hover span {
     0% {
         transform: rotate(0deg) translate3d(0, 0, 0);
     }
+
     25% {
         transform: rotate(3deg) translate3d(0, 0, 0);
     }
+
     50% {
         transform: rotate(-3deg) translate3d(0, 0, 0);
     }
+
     75% {
         transform: rotate(1deg) translate3d(0, 0, 0);
     }
+
     100% {
         transform: rotate(0deg) translate3d(0, 0, 0);
     }
@@ -110,15 +114,19 @@ button:hover span {
     0% {
         transform: translate3d(0, 0, 0) translateZ(0);
     }
+
     25% {
         transform: translate3d(4px, 0, 0) translateZ(0);
     }
+
     50% {
         transform: translate3d(-3px, 0, 0) translateZ(0);
     }
+
     75% {
         transform: translate3d(2px, 0, 0) translateZ(0);
     }
+
     100% {
         transform: translate3d(0, 0, 0) translateZ(0);
     }
@@ -212,7 +220,7 @@ button:hover span {
     margin-top: 50vh;
     /* poussé de la moitié de hauteur de viewport */
     transform: translateY(-50%);
-    /* tiré de la moitié de sa propre hauteur */
+    /* tiré de la moitié de sa propre hauteur */;
 }
 
 footer {
@@ -246,36 +254,36 @@ footer {
     -moz-box-shadow: inset 0px -3px 7px 0px #29bbff;
     -webkit-box-shadow: inset 0px -3px 7px 0px #29bbff;
     box-shadow: inset 0px -3px 7px 0px #29bbff;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
-    background: -moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
-    background: -webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
-    background: -o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
-    background: -ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
-    background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa', GradientType=0);
     background-color: #2dabf9;
-    -moz-border-radius: 29px;
-    -webkit-border-radius: 29px;
-    border-radius: 29px;
-    border: 2px solid #0b0e07;
+    -webkit-border-top-left-radius: 32px;
+    -moz-border-radius-topleft: 32px;
+    border-top-left-radius: 32px;
+    -webkit-border-top-right-radius: 32px;
+    -moz-border-radius-topright: 32px;
+    border-top-right-radius: 32px;
+    -webkit-border-bottom-right-radius: 32px;
+    -moz-border-radius-bottomright: 32px;
+    border-bottom-right-radius: 32px;
+    -webkit-border-bottom-left-radius: 32px;
+    -moz-border-radius-bottomleft: 32px;
+    border-bottom-left-radius: 32px;
+    text-indent: 0;
+    border: 1px solid #0b0e07;
     display: inline-block;
-    cursor: pointer;
     color: #ffffff;
-    font-family: Arial;
-    font-size: 16px;
-    padding: 14px 23px;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    height: 57px;
+    line-height: 57px;
+    width: 156px;
     text-decoration: none;
+    text-align: center;
     text-shadow: 0px 1px 0px #263666;
 }
 
 .myButton:hover {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
-    background: -moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
-    background: -webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
-    background: -o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
-    background: -ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
-    background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9', GradientType=0);
     background-color: #0688fa;
 }
 
@@ -287,168 +295,194 @@ footer {
 /* max-width pour faibles résolutions */
 
 @media screen and (max-width: 640px) {
-        .name {
-            position: absolute;
-            left: 20%;
-            top: 65%;
-            color: black;
-            font-size: 20px;
-            font-weight: bold;
-            animation-duration: 3s;
-            animation-delay: 1s;
-        }
-
-        .job {
-            position: absolute;
-            left: 20%;
-            top: 75%;
-            color: black;
-            font-size: 20px;
-            font-weight: bold;
-            animation-duration: 4s;
-            animation-delay: 2s;
-        }
-
-        .jobbis {
-            position: absolute;
-            left: 20%;
-            top: 85%;
-            color: black;
-            font-size: 20px;
-            font-weight: bold;
-            animation-duration: 5s;
-            animation-delay: 3s;
-        }
-
-        .fond {
-            height: 100vh;
-            background-image: url("../images/laptop640.png");
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            width: 100%;
-        }
-
-        .footer {
-            bottom: 0;
-            width: 100%;
-            /* Set the fixed height of the footer here */
-            height: 60px;
-            background-color: rgb(16, 16, 16);
-        }
-    }
-    /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
-    @media all and (min-width: 1024px) and (max-width: 1280px) {
-        .name {
-            position: absolute;
-            left: 20%;
-            top: 20%;
-            color: white;
-            font-size: 90px;
-            font-weight: bold;
-            animation-duration: 3s;
-            animation-delay: 1s;
-        }
-        .job {
-            position: absolute;
-            left: 25%;
-            top: 40%;
-            color: white;
-            font-size: 90px;
-            font-weight: bold;
-            animation-duration: 4s;
-            animation-delay: 2s;
-        }
-        .jobbis {
-            position: absolute;
-            left: 40%;
-            top: 60%;
-            color: white;
-            font-size: 90px;
-            font-weight: bold;
-            animation-duration: 5s;
-            animation-delay: 3s;
-        }
-        .fond {
-            height: 100vh;
-            background-image: url("../images/computer1280.jpg");
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            width: 100%;
-        }
-        footer {
-            flex: 1 1 0;
-            width: 100%;
-            background-color: rgb(16, 16, 16);
-            background-size: cover;
-            background-position: 50% 50%;
-        }
-        .footer {
-            bottom: 0;
-            width: 100%;
-            /* Set the fixed height of the footer here */
-            height: 60px;
-            background-color: rgb(16, 16, 16);
-        }
-    }
-    /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1281px et 11680px */
-    @media all and (min-width: 1281px) and (max-width: 1920px){
-        .name {
-            position: absolute;
-            left: 20%;
-            top: 20%;
-            color: white;
-            font-size: 75px;
-            font-weight: bold;
-            animation-duration: 3s;
-            animation-delay: 1s;
-        }
-        .job {
-            position: absolute;
-            left: 25%;
-            top: 40%;
-            color: white;
-            font-size: 75px;
-            font-weight: bold;
-            animation-duration: 4s;
-            animation-delay: 2s;
-        }
-        .jobbis {
-            position: absolute;
-            left: 40%;
-            top: 60%;
-            color: white;
-            font-size: 75px;
-            font-weight: bold;
-            animation-duration: 5s;
-            animation-delay: 3s;
-        }
-        .fond {
-            height: 100vh;
-            background-image: url("../images/computer1920.jpg");
-            background-repeat: no-repeat;
-            background-size:100% auto;
-            width: 100%;
-        }
-
-    }
-    .tabparcours {
-        padding-top: 30px;
-    }
-    .circle {
-        width: 200px;
-        margin: 6px 20px 20px;
-        display: inline-block;
-        position: relative;
-        text-align: center;
-        vertical-align: top;
-    }
-    strong {
+    .name {
         position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        text-align: center;
-        line-height: 45px;
-        font-size: 43px;
+        left: 20%;
+        top: 65%;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        animation-duration: 3s;
+        animation-delay: 1s;
     }
+
+    .job {
+        position: absolute;
+        left: 20%;
+        top: 75%;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        animation-duration: 4s;
+        animation-delay: 2s;
+    }
+
+    .jobbis {
+        position: absolute;
+        left: 20%;
+        top: 85%;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        animation-duration: 5s;
+        animation-delay: 3s;
+    }
+
+    .fond {
+        height: 100vh;
+        background-image: url("../images/laptop640.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .footer {
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 60px;
+        background-color: rgb(16, 16, 16);
+    }
+}
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .name {
+        position: absolute;
+        left: 20%;
+        top: 20%;
+        color: white;
+        font-size: 90px;
+        font-weight: bold;
+        animation-duration: 3s;
+        animation-delay: 1s;
+    }
+    .job {
+        position: absolute;
+        left: 25%;
+        top: 40%;
+        color: white;
+        font-size: 90px;
+        font-weight: bold;
+        animation-duration: 4s;
+        animation-delay: 2s;
+    }
+    .jobbis {
+        position: absolute;
+        left: 40%;
+        top: 60%;
+        color: white;
+        font-size: 90px;
+        font-weight: bold;
+        animation-duration: 5s;
+        animation-delay: 3s;
+    }
+    .fond {
+        height: 100vh;
+        background-image: url("../images/computer1280.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+    }
+    footer {
+        flex: 1 1 0;
+        width: 100%;
+        background-color: rgb(16, 16, 16);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .footer {
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 60px;
+        background-color: rgb(16, 16, 16);
+    }
+}
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1281px et 11680px */
+@media all and (min-width: 1281px) and (max-width: 1920px) {
+    .name {
+        position: absolute;
+        left: 20%;
+        top: 20%;
+        color: white;
+        font-size: 75px;
+        font-weight: bold;
+        animation-duration: 3s;
+        animation-delay: 1s;
+    }
+
+    .job {
+        position: absolute;
+        left: 25%;
+        top: 40%;
+        color: white;
+        font-size: 75px;
+        font-weight: bold;
+        animation-duration: 4s;
+        animation-delay: 2s;
+    }
+
+    .jobbis {
+        position: absolute;
+        left: 40%;
+        top: 60%;
+        color: white;
+        font-size: 75px;
+        font-weight: bold;
+        animation-duration: 5s;
+        animation-delay: 3s;
+    }
+
+    .fond {
+        height: 100vh;
+        background-image: url("../images/computer1920.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        width: 100%;
+    }
+}
+
+.tabparcours {
+    padding-top: 30px;
+}
+
+.circle {
+    width: 200px;
+    margin: 6px 20px 20px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+}
+
+strong {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 43px;
+}
+
+.Aligner-item {
+    max-width: 50%;
+}
+
+.Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animated_link {
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {left: -100px;}
+    to {left: 100px;}
 }
