@@ -474,3 +474,15 @@ strong {
     align-items: center;
     justify-content: center;
 }
+.animated_link {
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {left: -100px;}
+    to {left: 100px;}
+}

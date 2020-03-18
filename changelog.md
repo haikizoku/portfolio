@@ -1,12 +1,21 @@
-
 ## [1.0.0] - 2020-19-02
 ### Added
 - add site portofolio version one 
-## [0.1.0] - 2015-20-06
+## [0.1.0] - 2020-20-06
 
 ### Added 
 - amazon ses for send email 
 
-## [1.2.0] - 2015-24-02
+## [1.2.0] - 2020-24-02
 ### Added
 - added  google capcha in form contact 
+
+### [1.2.1] - 2020-18-03
+### Fixed
+- fixed name of download cv
+### Style
+- change component grille competence
+### Added
+- added link gitlab
+- added page réalisation
+
