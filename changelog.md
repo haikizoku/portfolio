@@ -10,7 +10,7 @@
 ### Added
 - added  google capcha in form contact 
 
-### [1.2.1] - 2020-18-03
+### [1.3.0] - 2020-18-03
 ### Fixed
 - fixed name of download cv
 ### Style
