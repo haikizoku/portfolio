@@ -1,5 +1,6 @@
 .idea
 /run
 /log
-/.env
+env.php
+/vendor
 
