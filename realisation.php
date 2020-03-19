@@ -35,7 +35,7 @@
         </div>
         <div class="row Aligner">
             <div class=" col-md-6 text-center">
-                <a href="http://dashboard.gregorynorvene.com/"><img src="images/dashboard2.jpg" alt="react_app" width="400px" height="169px" ></a>
+                <a href="http://dashboard.gregorynorvene.com/" target="_blank"><img src="img/dashboard2.jpg" alt="react_app" width="400px" height="169px" ></a>
 
             </div>
 

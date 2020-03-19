@@ -1,5 +1,5 @@
 # Portfolio réalisé en css/html
 # bootstrap 4
-# site heberge sous aws 
-
-# aws ses   
+# phpmailer/google captcha 
+# site hebergé sous aws 
+# aws ses 

@@ -29,7 +29,7 @@
             <div class="col-md-12"></div>
         </div>
         <div class ="row">
-            <div class="col-md-12 text-center" ><img src="images/man.png" alt="man"  width="auto" height="200" ></div>
+            <div class="col-md-12 text-center" ><img src="img/man.png" alt="man"  width="auto" height="200" ></div>
         </div>
 
         <div class ="row" id="divide2">

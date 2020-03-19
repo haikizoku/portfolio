@@ -37,7 +37,7 @@
 
 
         <div class="row Aligner">
-            <div class=" col-md-2 text-center"><img src="images/htmlcss.svg" alt="html/css3" width="120" height="120"></div>
+            <div class=" col-md-2 text-center"><img src="img/htmlcss.svg" alt="html/css3" width="120" height="120"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
@@ -57,7 +57,7 @@
                 <div class="col-md-12" id="divide1"></div>
             </div>
 
-            <div class="col-md-2 text-center"><img src="images/js.png" alt="js" width="120" height="120"></div>
+            <div class="col-md-2 text-center"><img src="img/js.png" alt="js" width="120" height="120"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
@@ -77,7 +77,7 @@
                 <div class="col-md-12" id="divide1"></div>
             </div>
 
-            <div class="col-md-2 text-center"><img src="images/jquery.png" alt="html/css3" width="120" height="120"></div>
+            <div class="col-md-2 text-center"><img src="img/jquery.png" alt="html/css3" width="120" height="120"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
@@ -105,7 +105,7 @@
 
 
         <div class="row Aligner">
-            <div class="col-md-2 text-center"><img src="images/php5.jpg" alt="php5" width="110" height="110"></div>
+            <div class="col-md-2 text-center"><img src="img/php5.jpg" alt="php5" width="110" height="110"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
@@ -125,7 +125,7 @@
                 <div class="col-md-12" id="divide1"></div>
             </div>
 
-            <div class="col-md-2 text-center"><img src="images/SQL.png" alt="sql" width="110" height="110"></div>
+            <div class="col-md-2 text-center"><img src="img/SQL.png" alt="sql" width="110" height="110"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
@@ -145,7 +145,7 @@
                 <div class="col-md-12" id="divide1"></div>
             </div>
 
-            <div class="col-md-2 text-center"><img src="images/uml.png" alt="uml" width="110" height="110"></div>
+            <div class="col-md-2 text-center"><img src="img/uml.png" alt="uml" width="110" height="110"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
@@ -174,7 +174,7 @@
 
 
         <div class="row Aligner">
-            <div class="col-md-2 text-center"><img src="images/bootstrap.png" alt="bootstrap" width="110" height="110"></div>
+            <div class="col-md-2 text-center"><img src="img/bootstrap.png" alt="bootstrap" width="110" height="110"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
@@ -194,7 +194,7 @@
                 <div class="col-md-12" id="divide1"></div>
             </div>
 
-            <div class="col-md-2 text-center"><img src="images/vagrant.png" alt="vagrant" width="110" height="110"></div>
+            <div class="col-md-2 text-center"><img src="img/vagrant.png" alt="vagrant" width="110" height="110"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
@@ -214,7 +214,7 @@
                 <div class="col-md-12" id="divide1"></div>
             </div>
 
-            <div class="col-md-2 text-center"><img src="images/c.png" alt="c++" width="110" height="110"></div>
+            <div class="col-md-2 text-center"><img src="img/c.png" alt="c++" width="110" height="110"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
@@ -243,7 +243,7 @@
 
 
         <div class="row Aligner">
-            <div class="col-md-2  imgtop text-center"><img src="images/react.png" alt="react" width="110" height="110"></div>
+            <div class="col-md-2  imgtop text-center"><img src="img/react.png" alt="react" width="110" height="110"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
@@ -264,7 +264,7 @@
             </div>
 
 
-            <div class="col-md-2 text-center"><img src="images/docker.png" alt="docker" width="110" height="110"></div>
+            <div class="col-md-2 text-center"><img src="img/docker.png" alt="docker" width="110" height="110"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
@@ -283,7 +283,7 @@
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
             </div>
-            <div class="col-md-2 text-center"><img src="images/laravel.png" alt="laravel" width="110" height="110"></div>
+            <div class="col-md-2 text-center"><img src="img/laravel.png" alt="laravel" width="110" height="110"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
