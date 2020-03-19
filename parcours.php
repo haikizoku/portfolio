@@ -29,7 +29,7 @@
             <div class="col-sm-12"></div>
         </div>
         <div class ="row">
-            <div class= "col-md-2"><img src="/images/implid.png" width="90px"></div>
+            <div class= "col-md-2"><img src="/img/implid.png" width="90px"></div>
             <div class="col-md-2 tabparcours">2017-2019</div>
             <div class= "col-md-3 col-md-offset-1 tabparcours">Implid consulting</div>
             <div class= "col-sm-4">
@@ -37,7 +37,7 @@
                     <li>Diffusion de newsletter sous Laravel</li>
                     <li>Migration application ovh à aws</li>
                     <li>Création api et test unitaires</li>
-                    <li>Création images docker</li>
+                    <li>Création img docker</li>
                     <li>Création interfaces sous React</li>
                 </ul>
             </div>
@@ -47,7 +47,7 @@
         </div>
 
         <div class ="row">
-            <div class= "col-md-2"><img src="/images/IT-akademy-mono-orange.png" width="90px"></div>
+            <div class= "col-md-2"><img src="/img/IT-akademy-mono-orange.png" width="90px"></div>
             <div class="col-md-2 tabparcours">2016</div>
             <div class= "col-md-3 col-md-offset-1 tabparcours">IT-Akademy Villeurbanne</div>
             <div class= "col-sm-4">
@@ -64,7 +64,7 @@
         </div>
         <div class ="row">
             <div class= "col-md-2">
-            <img src="/images/ltc.png" width="90px" height="90px">
+            <img src="/img/ltc.png" width="90px" height="90px">
             </div>
             <div class="col-md-2 tabparcours ">2016</div>
             <div class= "col-md-3 col-md-offset-1 tabparcours">Stage Informatique L.T.C</div>
@@ -81,7 +81,7 @@
             <div class="col-sm-12"></div>
         </div>
         <div class ="row">
-            <div class= "col-md-2"><img src="/images/LYON1.png" width="90px"></div>
+            <div class= "col-md-2"><img src="/img/LYON1.png" width="90px"></div>
             <div class="col-md-2 tabparcours ">2013</div>
             <div class= "col-md-3 col-md-offset-1 tabparcours" >D.U.T Informatique</div>
             <div class= "col-sm-4">
@@ -97,7 +97,7 @@
             <div class="col-sm-12"></div>
         </div>
         <div class ="row">
-            <div class= "col-md-2"><span><img src="/images/SGPI.jpg" width="90px" height="90px"></div>
+            <div class= "col-md-2"><span><img src="/img/SGPI.jpg" width="90px" height="90px"></div>
             <div class="col-md-2 tabparcours ">2006-2015</div>
             <div class= "col-md-3 col-md-offset-1 tabparcours" >Agent de sécurité</div>
             <div class= "col-sm-4">
@@ -113,7 +113,7 @@
           <div class="col-sm-12"></div>
          </div>
           <div class ="row">
-            <div class= "col-md-2"><span><img src="/images/gendarmerie.png" width="90px" height="90px"></div>
+            <div class= "col-md-2"><span><img src="/img/gendarmerie.png" width="90px" height="90px"></div>
             <div class="col-md-2 tabparcours ">2005-2006</div>
             <div class= "col-md-3 col-md-offset-1 tabparcours" >Gendarme Adjoint</div>
             <div class= "col-sm-4">

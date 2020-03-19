@@ -302,35 +302,32 @@ footer {
         color: black;
         font-size: 20px;
         font-weight: bold;
-        animation-duration: 3s;
-        animation-delay: 1s;
+
     }
 
     .job {
         position: absolute;
         left: 20%;
         top: 75%;
-        color: black;
+        color: #040000;
         font-size: 20px;
         font-weight: bold;
-        animation-duration: 4s;
-        animation-delay: 2s;
+
     }
 
     .jobbis {
         position: absolute;
         left: 20%;
         top: 85%;
-        color: black;
+        color: #040000;
         font-size: 20px;
         font-weight: bold;
-        animation-duration: 5s;
-        animation-delay: 3s;
+
     }
 
     .fond {
         height: 100vh;
-        background-image: url("../images/laptop640.png");
+        background-image: url("../img/laptop640.png");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 100%;
@@ -350,35 +347,32 @@ footer {
         position: absolute;
         left: 20%;
         top: 20%;
-        color: white;
+        color: #040000;
         font-size: 90px;
         font-weight: bold;
-        animation-duration: 3s;
-        animation-delay: 1s;
+
     }
     .job {
         position: absolute;
         left: 25%;
         top: 40%;
-        color: white;
+        color: #040000;
         font-size: 90px;
         font-weight: bold;
-        animation-duration: 4s;
-        animation-delay: 2s;
+
     }
     .jobbis {
         position: absolute;
         left: 40%;
         top: 60%;
-        color: white;
+        color: #040000;
         font-size: 90px;
         font-weight: bold;
-        animation-duration: 5s;
-        animation-delay: 3s;
+
     }
     .fond {
         height: 100vh;
-        background-image: url("../images/computer1280.jpg");
+        background-image: url("../img/computer1280.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 100%;
@@ -404,38 +398,35 @@ footer {
         position: absolute;
         left: 20%;
         top: 20%;
-        color: white;
+        color:#040000;
         font-size: 75px;
         font-weight: bold;
-        animation-duration: 3s;
-        animation-delay: 1s;
+
     }
 
     .job {
         position: absolute;
         left: 25%;
         top: 40%;
-        color: white;
+        color:#040000;
         font-size: 75px;
         font-weight: bold;
-        animation-duration: 4s;
-        animation-delay: 2s;
+
     }
 
     .jobbis {
         position: absolute;
         left: 40%;
         top: 60%;
-        color: white;
         font-size: 75px;
         font-weight: bold;
-        animation-duration: 5s;
-        animation-delay: 3s;
+        color:#040000;
+
     }
 
     .fond {
         height: 100vh;
-        background-image: url("../images/computer1920.jpg");
+        background-image: url("../img/computer1920.jpg");
         background-repeat: no-repeat;
         background-size: 100% auto;
         width: 100%;
