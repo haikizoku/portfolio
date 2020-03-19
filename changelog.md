@@ -19,3 +19,6 @@
 - added link gitlab
 - added page réalisation
 
+### [1.3.1] - 2020-19-03
+### Fixed
+- link to react site
