@@ -340,6 +340,14 @@ footer {
         height: 60px;
         background-color: rgb(16, 16, 16);
     }
+    .animated_link {
+        width: 100px;
+        height: 50px;
+        font-weight: bold;
+        position: relative;
+        /*animation: mymove 5s infinite;*/
+    }
+
 }
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
 @media all and (min-width: 1024px) and (max-width: 1280px) {
@@ -391,6 +399,14 @@ footer {
         height: 60px;
         background-color: rgb(16, 16, 16);
     }
+    .animated_link {
+        width: 100px;
+        height: 50px;
+        font-weight: bold;
+        position: relative;
+        animation: mymove 5s infinite;
+    }
+
 }
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1281px et 11680px */
 @media all and (min-width: 1281px) and (max-width: 1920px) {
@@ -431,6 +447,14 @@ footer {
         background-size: 100% auto;
         width: 100%;
     }
+    .animated_link {
+        width: 100px;
+        height: 50px;
+        font-weight: bold;
+        position: relative;
+        animation: mymove 5s infinite;
+    }
+
 }
 
 .tabparcours {
@@ -464,13 +488,6 @@ strong {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.animated_link {
-    width: 100px;
-    height: 50px;
-    font-weight: bold;
-    position: relative;
-    animation: mymove 5s infinite;
 }
 
 @keyframes mymove {

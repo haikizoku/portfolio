@@ -35,7 +35,12 @@
         </div>
         <div class="row Aligner">
             <div class=" col-md-6 text-center">
-                <a href="http://dashboard.gregorynorvene.com/" target="_blank"><img src="img/dashboard2.jpg" alt="react_app" width="400px" height="169px" ></a>
+                <a href="http://dashboard.gregorynorvene.com/" target="_blank"><img src="img/dashboard2.jpg" alt="react_app"
+                    srcset="img/dashboard2.jpg 320w,
+                    img/dashboard2.jpg 640w,
+                    img/dashboard2.jpg 1280w,
+                    img/dashboard2.jpg 1980w"
+                    sizes="100vw" ></a>
 
             </div>
 
@@ -52,7 +57,6 @@
                         <li>Il est sotck&eacute; sur un s3 aws</li>
                     </ul>
                     </span>
-
             </div>
 
             <div class ="w-100 d-sm-none">
