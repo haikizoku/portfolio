@@ -56,7 +56,7 @@
                         <li>Il se connecte&nbsp; à une api r&eacute;alis&eacute; sous adonis js</li>
                         <li>Il est sotck&eacute; sur un s3 aws</li>
                     </ul>
-                    </span>
+                </span>
             </div>
 
             <div class ="w-100 d-sm-none">
@@ -75,7 +75,7 @@
         <div class="row Aligner">
             <div class=" col-md-6 text-center">
 
-                <a class="animated_link" href="https://hub.docker.com/r/gnorvene1/node_python_aws" target="_blank">Image docker réalisée</a>
+                <a class="animated_link" href="https://hub.docker.com/r/gnorvene1" target="_blank">Image docker réalisées</a>
 
             </div>
 
@@ -85,11 +85,11 @@
 
             <div class="col-md-6 ">
                 <span>
-                    <h2>Image docker utilisé pour la livraison </h2>
+                    <h2>Image docker crées </h2>
                     <ul style="list-style-type: square; text-align: left">
-                        <li>node 13 </li>
-                        <li>pyton</li>
-                        <li>aws cli </li>
+                        <li>Node 13/Pytyon/Aws cli(livraison application react) </li>
+                        <li>php7.4 apache symphony 5 </li>
+                        <li>php7.4 nginx symphony 4 </li>
                     </ul>
                     </span>
 
