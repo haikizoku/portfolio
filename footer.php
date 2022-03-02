@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
         <div class="container pied">
             <div class="navbar-text pull-left">
-                <p class="copyright">© 2020 By Norvene Gregory </p>
+                <p class="copyright">© 2022 By Norvene Gregory </p>
             </div>
             <div class="navbar-text pull-right">
                 <div class="socialNetwork">
