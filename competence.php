@@ -214,7 +214,7 @@
                 <div class="col-md-12" id="divide1"></div>
             </div>
 
-            <div class="col-md-2 text-center"><img src="img/c.png" alt="c++" width="110" height="110"></div>
+            <div class="col-md-2 text-center"><img src="img/graphql.png" alt="graphql" width="110" height="110"></div>
 
             <div class ="w-100 d-sm-none">
                 <div class="col-md-12" id="divide1"></div>
